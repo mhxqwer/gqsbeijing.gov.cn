@@ -1,0 +1,124 @@
+.m-share {
+    float: right;
+    margin-top: -5px;
+}
+
+.share {
+    zoom: 1;
+}
+
+.share:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.share a {
+    float: left;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-left: 13px;
+    background: #c9c9c9;
+    cursor: pointer;
+    display: block;
+}
+
+.share a i {
+    display: block;
+    width: 26px;
+    height: 26px;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    transition: .4s all;
+}
+
+.share a:hover i {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.share #share-icon {
+    width: 26px;
+    height: 26px;
+    float: left;
+    display: none;
+}
+
+.share #share-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.share .share-qqzone i {
+    background: url("../images/fenxiang.png") 4px center no-repeat;
+}
+
+.share .share-qqzone:hover {
+    background-color: #fc7354;
+}
+
+.share .share-wechat {
+    position: relative;
+}
+
+.share .share-wechat i {
+    background: url("../images/fenxiang.png") -30px center no-repeat;
+}
+
+.share .share-wechat:hover {
+    background-color: #1fbc7d;
+}
+
+.share .share-weibo i {
+    background: url("../images/fenxiang.png") -65px center no-repeat;
+}
+
+.share .share-qq:hover {
+    background-color: #27a8f2;
+}
+
+.share .share-qq i {
+    background: url("../images/fenxiang.png") -96px center no-repeat;
+}
+
+.share .share-weibo:hover {
+    background-color: #e96157;
+}
+
+.share .bg-code {
+    left: -120px;
+    z-index: 10;
+}
+
+.share .qrcode {
+    position: absolute;
+    top: 36px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #fff;
+    display: none;
+    width: 100px;
+    height: 100px;
+    left: -98%;
+    z-index: 11;
+}
+
+.share .close-btn {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    z-index: 12;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    right: -39px;
+    top: 50px;
+    display: none;
+    cursor: pointer;
+}
